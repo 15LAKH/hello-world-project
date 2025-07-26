@@ -1,37 +1,45 @@
-<form action="action_page.php">
-  <div class="container">
-    <h1>New user Register for DevOps Learning</h1>
-    <p>Please fill in this form to create an account.</p>
-    <hr>
-     
-    <label for="Name"><b>Enter Name</b></label>
-    <input type="text" placeholder="Enter Full Name" name="Name" id="Name" required>
-    <br>
-    
-    <label for="mobile"><b>Enter mobile</b></label>
-    <input type="text" placeholder="Enter moible number" name="mobile" id="mobile" required>
-    <br>
-
-    <label for="email"><b>Enter Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="email" required>
-    <br>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-    <br>
-
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-    <hr>
-    <br>
-    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-    <button type="submit" class="registerbtn">Register</button>
-  </div>
-  <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
-  </div>
-
-   <h1> Thankyou, Happy Learning </h1>
-
-  
-</form>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration form </title>
+  </head>
+  <body>
+    <h2>Registration form </h2>
+    <form>
+      <label>Enter your first name</label>
+      <input type="text" name="name" id="name" placeholder="Enter your first name" value=""> <br>
+      <label>Enter your last name</label>
+      <input type="text" name="name" id="name" value=""><br>
+      <label>Enter your password</label>
+      <input type="password" name="password" id="password" value=""> <br>
+      <label>ReEnter your password</label>
+      <input type="password" name="confirm" id="confirm" value=""> <br>
+      <label>Enter your email</label>
+      <input type="email" name="email" id="email" value=""><br>
+      <label>Enter your mobile</label>
+      <input type="tel" name="mobile" id="mobile" value=""><br>
+      <label>Enter your address </label>
+      <input type="textarea" row="6" col="7" ></textarea> <br>
+      <label>Select your gender </label>
+      <input type="radio" name="gender" id="male" value="male"><span>Male</span>
+      <input type="radio" name="gender" id="female" value="female"><span>Female </span> <br>
+      <label>Select sports you love</label>
+      <input type="checkbox" name="a" id="a" value="cricket"><span>cricket</span>
+      <input type="checkbox" name="b" id="b" value="football"><span>football </span>
+      <input type="checkbox" name="c" id="c" value="hockey"><span>hockey</span> <br>
+      <label>Select your Date of Birth</label>
+      <input type="date" name="dob" id="dob" value=""><br>
+      <label>Select your country </label>
+      <select name="country" id="country">
+        <option value="">... Select your country...</option>
+        <option value="India">India </option>
+        <option value="Afghanistan">Afghanistan </option>
+        <option value="France">France </option> <br>
+      </select> <br>
+      <label >Upload image </label>
+      <input type="file" name="fileupload" id="fileupload" value="fileupload"> <br>
+      <input type="submit" name="submit" id="submit" value="Register">
+      <input type="submit" name="reset" id="reset" value="Reset">
+      </form>
+     </body>
+</html>
