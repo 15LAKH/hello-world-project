@@ -8,6 +8,8 @@
     <form>
       <label>Enter your first name</label>
       <input type="text" name="name" id="name" placeholder="Enter your first name" value=""> <br>
+      <label>Enter your father name</label>
+      <input type="text" name="name" id="name" value=""><br>
       <label>Enter your last name</label>
       <input type="text" name="name" id="name" value=""><br>
       <label>Enter your password</label>
@@ -42,4 +44,4 @@
       <input type="submit" name="reset" id="reset" value="Reset">
       </form>
      </body>
-</html>
+</htmli>
